@@ -1,0 +1,26 @@
+<schemalist>
+
+  <schema id="org.nil.indicator.coinprice" path="/org/nil/coinprice/">
+ 
+    <key type="i" name="refresh">
+        <range min="5" max="120"/>
+        <default>30</default>
+        <summary>Refresh interval</summary>
+    </key>
+ 
+    <key type="s" name="exchange">
+        <default>'bitstamp'</default>
+        <summary>Crypto currency exchange</summary>
+    </key>
+
+    <key type="s" name="assetpair-kraken">
+        <default>'XXBTZUSD'</default>
+        <summary>Kraken asset pairs</summary>
+    </key>
+    <key type="s" name="assetpair-btce">
+        <default>'btc_usd'</default>
+        <summary>BTC-E asset pairs</summary>
+    </key>
+ 
+  </schema>
+</schemalist>
