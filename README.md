@@ -1,7 +1,9 @@
 
-![alt tag](https://github.com/jQrgen/ubuntu-coinprice-indicators/master/result.png)
+![alt tag](https://github.com/jQrgen/ubuntu-coinprice-indicators/blob/master/result.png)
 
-Displays ETH and BTC tickers in ubuntu dekstop bar. Teste on ubuntu 16.04
+Displays ETH and BTC tickers in ubuntu dekstop bar.
+
+Tested on ubuntu 16.04
 
 ##Setup
 1. Clone repo
